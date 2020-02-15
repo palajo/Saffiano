@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: "Sf Pro Display", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+.container{
+	max-width: 1440px;
+}
+h1{
+	font-size: 48px;
+	font-weight: 600;
+
+	margin: 0px;
+}
+h2{
+	font-size: 36px;
+	font-weight: 600;
+
+	margin: 0px;
+}
+h3{
+	font-size: 30px;
+	font-weight: 600;
+
+	margin: 0px;
+}
+h4{
+	font-size: 24px;
+	font-weight: 600;
+
+	margin: 0px;
+}
+h5{
+	font-size: 18px;
+	font-weight: 600;
+
+	margin: 0px;
+}
+.header-menu{
+	background: #080808;
+	color: white;
+	padding: 15px 0px;
+}
+hr{
+	background: #1f1f1f;
+}
+ul{
+	list-style: none;
+}
+
+ul.top-menu > li.top-menu-item{
+	padding: 0px 20px;
+	font-size: 12px;
+}
+ul.main-menu > li.main-menu-item{
+	padding: 0px 25px;
+	font-weight: 600;
+}
+.slider{
+	background: #1f1f1f;
+	height: calc(100vh - 102px);
+}
+.icon-graphic{
+	max-width: 1200px;
+}
+.padding-70{
+	padding: 70px 0px;
+}
