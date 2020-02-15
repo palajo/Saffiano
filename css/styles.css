@@ -11,6 +11,7 @@ body{
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
+
 .container{
 	max-width: 1440px;
 }
@@ -44,6 +45,12 @@ h5{
 
 	margin: 0px;
 }
+p{
+	font-size: 14px;
+	font-weight: normal;
+
+	margin: 0px;
+}
 .header-menu{
 	background: #080808;
 	color: white;
@@ -55,7 +62,6 @@ hr{
 ul{
 	list-style: none;
 }
-
 ul.top-menu > li.top-menu-item{
 	padding: 0px 20px;
 	font-size: 12px;
@@ -63,6 +69,7 @@ ul.top-menu > li.top-menu-item{
 ul.main-menu > li.main-menu-item{
 	padding: 0px 25px;
 	font-weight: 600;
+	text-transform: uppercase;
 }
 .slider{
 	background: #1f1f1f;
@@ -71,6 +78,129 @@ ul.main-menu > li.main-menu-item{
 .icon-graphic{
 	max-width: 1200px;
 }
-.padding-70{
+.padding-25{
+	padding: 25px 0px;
+}
+.padding-50{
+	padding: 50px 0px;
+}
+.category-background{
+	padding: 50px 50px 270px 50px;
+	background: url(../img/backpack.jpg);
+	background-size: cover;
+	background-position: center;
+}
+h2.category-name{
+	font-size: 36px;
+	font-weight: 200;
+}
+p.category-price{
+	font-weight: 600;
+	font-size: 24px;
+}
+a.category-link{
+	font-weight: 600;
+	text-decoration: underline;
+}
+h1.thin{
+	font-weight: 200;
+	font-size: 64px;
+	line-height: 64px;
+
+	color: white;
+}
+h1.fat{
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 100px;
+
+	color: white;
+}
+a.shop-now{
+	font-weight: 600;
+	font-size: 14px;
+	text-decoration: underline;
+
+	color: white;
+}
+.banner{
+	background: url(../img/big-bag.jpg);
+	background-size: cover;
+	background-position: center;
+
+	padding: 220px 0px 220px 70px;
+}
+.banner-overlay{
+	position: absolute;
+	left: 15px;
+	top: 0;
+	width: calc(100% - 30px);
+	height: 100%;
+
+	background: rgba(0,0,0,0.5);
+}
+.window{
+	background: #f8f8f8;
+	padding: 50px;
+}
+.window-text{
+	margin-top: 30px;
+}
+.window-title{
+	font-size: 14px;
+	line-height: 16px;
+}
+.window-price{
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 500;
+
+	color: #b9a080;
+}
+.video{
+	background: #f8f8f8;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.video-block{
+	padding: 20px;
+	text-align: center;
+}
+.video-description{
+	padding: 0px 50px;
+	margin-top: 30px;
+}
+.image{
+	background: #1f1f1f;
+	margin: 0 auto;
+}
+footer{
+	background: #b9a080;
 	padding: 70px 0px;
+	color: white;
+}
+h3.footer-heading{
+	font-size: 14px;
+	font-weight: bold;
+}
+p.footer-description{
+	font-size: 12px;
+}
+ul.footer-menu > li.footer-menu-item{
+	font-size: 12px;
+	line-height: 18px;
+}
+ul.footer-list > li.list-item{
+	font-size: 12px;
+	line-height: 18px;
+}
+.separator{
+	margin-bottom: 20px;
+}
+.px-4{
+	font-size: 18px;
+	font-weight: 600;
+}
+hr.my-auto{
+	background: #f0f0f0;
 }
